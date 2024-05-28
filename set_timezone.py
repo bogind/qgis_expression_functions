@@ -11,7 +11,7 @@ def set_timezone(datetime, timezone, feature, parent):
     <h4>Syntax</h4>
     <div class="syntax">
     <code>
-    <span class="functionname">set_tz</span>
+    <span class="functionname">set_timezone</span>
     (<span class="argument">datetime</span>, <span class="argument">tz</span>)
     </code>
     [] marks optional components
@@ -31,9 +31,9 @@ def set_timezone(datetime, timezone, feature, parent):
     <h4>Examples</h4>
     <div class="examples">
     <ul>
-      <li>set_tz( now() ,'UTC') &rarr; '2024-05-28T09:21:03.769' </li>
-      <li>set_tz( now() ,'America/New_York') &rarr; '2024-05-28T09:21:39.317-04:00'</li>
-      <li>set_tz( now() ,'UTC+03:00') &rarr; '2024-05-28T09:22:04.630+03:00'</li>
+      <li>set_timezone( now() ,'UTC') &rarr; '2024-05-28T09:21:03.769' </li>
+      <li>set_timezone( now() ,'America/New_York') &rarr; '2024-05-28T09:21:39.317-04:00'</li>
+      <li>set_timezone( now() ,'UTC+03:00') &rarr; '2024-05-28T09:22:04.630+03:00'</li>
     </ul>
     </div>
     """
